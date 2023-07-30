@@ -13,4 +13,20 @@ public class Utils {
 		}
 	}
 	
+	public static int addValue(int value1, int value2) {
+		int result = value1 + value2;		
+		return result;
+	}
+	
+	public static int substractValue(int value1, int value2) {
+		int result = value1 - value2;		
+		return result;
+	}
+	
+	public static int multiplyValue(int value1, int value2) {
+		int result = value1 * value2;		
+		return result;
+	}
+	
+	
 }
